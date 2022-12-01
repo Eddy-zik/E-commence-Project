@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import FooterComp1 from './Components/FooterComp1';
+import FooterComp2 from './Components/FooterComp2';
+import NavComp1 from './Components/NavComp1';
+import NavComp2 from './Components/NavComp2';
+// import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavComp1 />
+      <NavComp2 />
+      {/* <Routes>
+
+         <Route path='/' element={} />
+         <Route path='/' element={} />
+         <Route path='/' element={} />
+         <Route path='/' element={} />
+         <Route path='/' element={} />
+
+      </Routes> */}
+     
+      <FooterComp1 />
+      <FooterComp2 />
+      {/* <p>copyright @ 2022 Konga.com. All rights reserved</p> */}
     </div>
   );
 }
