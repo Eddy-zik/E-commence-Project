@@ -1,0 +1,220 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-container {
+   padding: 5px 0px 0px 60px;
+   justify-content:space-between;
+   margin: 0;
+  text-align: center;
+}
+.img1{
+  padding:0px 90px 10px 0px ;
+}
+.img2{
+  padding:0px 90px 10px 0px ; 
+}
+.img3{
+  padding:0px 90px 10px 0px ;
+}
+.img4{
+  padding:0px 90px 10px 0px ;
+}
+.img5{
+  padding:0px 90px 10px 0px ;
+}
+.img6{
+  padding:0px 90px 10px 0px ;
+}
+.img7{
+  padding:0px 90px 10px 0px ;
+}
+.img8{
+  padding: 10px;
+}
+.nav-main{
+  background-color: rgb(247, 141, 159);
+  position:relative;
+  display: flex;
+  width:100% ;
+  height:55px;
+  
+  /* justify-content: center; */
+
+}
+.tag1{
+  padding: 0px 45px;
+  height: 55px;
+  background-color: rgb(247, 141, 159) ;
+  /* border: ; */
+  cursor: pointer;
+  font-size: 15px;
+  /* &:hover{ */
+}
+
+.tag3{
+  cursor: pointer;
+  background-color: green;
+  padding-right: 40px;
+  display: flex;
+  padding-left: 19px;
+}
+
+.cart{
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.tag2{
+  padding: 0px 40px;
+  background-color: rgb(247, 141, 159) ;
+  /* border: ; */
+  cursor: pointer;
+  font-size: 15px;
+}
+ 
+.input1{
+  height: 20px;
+  width: 480px;
+  padding: 13px;
+}
+.input-bar{
+  width: 500px;
+  height: 25px;
+  }
+
+.search-bar{
+  width:60px ;
+  height:40px ;
+  padding-top: 0px;
+  background-color: orange;
+}
+
+.nav-sub{
+  background-color: rgb(183, 75, 111);
+  color:#fff;
+  display: flex; 
+  padding: 0px 10px 0px 10px;
+  justify-content: space-between
+}
+
+button{
+  color: #fff;
+  border: none;
+}
+
+.btn-sub{
+  color: #fff;
+  height: 30px ;
+  background-color:  rgb(183, 75, 111) ;
+  cursor: pointer;
+}
+ /* button:hover {}  */
+ .footer-sub{
+  display: flex;
+  font-size: small;
+  padding: 15px 30px 60px ;
+  background-color: rgb(57, 56, 56);
+  justify-content: space-between;
+  color: #fff;
+  
+ }
+ .footer-box{
+  width: 40px;
+  height: 40px;
+  background-color: black;
+ }
+ .footer-b{
+  display: flex;
+  /* background-color: black; */
+  justify-content: space-between;
+  
+ }
+ .footer-main{
+  background-color:gray;
+  display:flex;
+  justify-content: space-between;
+  height:90px ;
+
+ }
+ a:hover{
+  color: #fff;
+ }
+ a{
+  color: rgb(186, 179, 179);
+ }
+ button:hover {
+  color: rgb(183, 75, 111);
+  background-color: #fff;
+ }
+
+ img{
+  cursor: pointer;
+ }
+ .input-bar2{
+  width: 180px;
+  height: 37px;
+ margin-top: 14px;
+ padding: 0px 18px;
+ }
+ .search-bar2{
+  width:60px ;
+  height:40px ;
+  margin-top: 28px;
+  margin-left: 0px;
+  margin-right: 10px;
+  padding-left: 0px;
+  background-color: orange;
+}
+.mat{
+  padding: 30px 0px 0px 0px;
+  margin: 0px 0px 0px 0px ;
+}
+.hide{
+  display: none;
+  background-color: #fff;
+  color:rgb(183, 75, 111) ;
+}
+.myDiv:hover + .hide{
+  display: block;
+  background-color: #fff;
+  color:rgb(183, 75, 111) ;
+}
+.div1{
+  display: inline;
+  position: absolute;
+  margin: 0px 10px 10px 10px;
+}
+.div1-1{
+  margin-left: 930px;
+  margin-top: 10px;
+}
+.div-block-sub{
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+}
+.div-block{
+  border: 1px solid none;
+  box-shadow: 1px 1px 0px 0px  ;
+  height: 40px;
+  width: 200px;
+  margin: 20px 20px 20px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+.div2{
+  border: 1px solid  rgb(183, 75, 111) ;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  background-color:  rgb(183, 75, 111);
+  padding-left: 10px;
+  
+}
+.div2-link{
+  font-size: small;
+}
