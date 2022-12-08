@@ -191,13 +191,17 @@ button{
   margin-top: 10px;
 }
 .div-block-sub{
+
   text-align: center;
   justify-content: space-between;
   display: flex;
 }
-.div-block{
+.konga{
+  background-color: rgb(245, 241, 241);
+}
+.div-block{ 
+   background-color: #fff;
   border: 1px solid none;
-  box-shadow: 1px 1px 0px 0px  ;
   height: 40px;
   width: 200px;
   margin: 20px 20px 20px 20px;
@@ -217,4 +221,31 @@ button{
 }
 .div2-link{
   font-size: small;
+}
+.div3{
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size:large;
+  padding-top: 10px;
+  margin: 30px 10px 10px 10px ;
+}
+.div4{
+  background-color: #fff;
+  padding: 10px 10px 10px 10px ;
+  margin: 20px 10px 10px 10px;
+  
+}
+.div5{
+  display: flex;
+  justify-content:space-evenly ;
+  background-color: #fff;
+  padding: 10px 10px 10px 10px ;
+  margin: 20px 10px 10px 10px;
+  
+}
+.div6{
+
 }
